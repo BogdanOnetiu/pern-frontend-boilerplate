@@ -1,5 +1,3 @@
-import { MouseEventHandler } from 'react';
-
 export interface User {
   name: string;
   avatarUrl: string;
@@ -8,5 +6,5 @@ export interface User {
 
 export interface UserCardProps {
   user: User;
-  onFollow: MouseEventHandler<HTMLButtonElement>;
+  onFollow: (user: User) => void;
 }

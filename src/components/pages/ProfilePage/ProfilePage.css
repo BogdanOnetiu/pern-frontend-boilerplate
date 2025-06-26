@@ -1,0 +1,9 @@
+.container {
+  display: contents;
+}
+
+.profileList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
